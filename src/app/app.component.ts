@@ -33,6 +33,10 @@ export class AppComponent {
     238.99)
   ];
   }
+
+  productWasSelected(product: Product): void {
+    console.log(`Is clicked: '`, product);
+  }
 }
 
 
