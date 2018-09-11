@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter } from '@angular/core';
 import { Product } from './product.model';
 
 @Component({
@@ -30,7 +30,13 @@ export class AppComponent {
     'Blue Jacket',
     '/assets/images/products/blue-jacket.jpg',
     ['Women', 'Apparel', 'Jackets & Vests'],
-    238.99)
+    238.99),
+    new Product
+    ('SOMEBOOTS',
+    'BLACK WHITING BOOTS',
+    '/assets/image/products/1.jpg',
+    ['Boys', 'Boots', 'Britain'],
+    999.99)
   ];
   }
 

@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 .ui.menu .item img.logo {
-    margin-right: 1.5em;
+  margin-right: 1.5em;
 }
 
 .ui.items>.item {
@@ -15,7 +15,7 @@
 }
 
 .ui.items>.item>.content>.header {
-    padding-top: 1em;
+  padding-top: 1em;
 }
 
 .products-list {
@@ -50,15 +50,16 @@
 
 .cf:before,
 .cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
 }
 
 .cf:after {
-    clear: both;
+  clear: both;
 }
 
 cf {
-    *zoom: 1;
+  *zoom: 1;
 }
-
